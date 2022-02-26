@@ -1,4 +1,4 @@
-Projeto Aluraconf - Com o professor Flávio Almeida(@flaviohalmeida)
+Projeto Aluraconf - Com o professor Flávio Almeida(@flaviohalmeida) pela Alura
 
 Projeto de página seguindo instruções da aula:
 
