@@ -1,0 +1,21 @@
+/* Painel Conteúdo */
+
+.painel-sobre {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.painel-sobre__titulo {
+  font-size: 2.2rem;
+}
+.painel-sobre__subtitulo {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+.painel-sobre__descricao {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* Painel Conteúdo - Fim */

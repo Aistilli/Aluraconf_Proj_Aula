@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" />
+    <link rel="stylesheet" href="./css/botao.css" />
+    <link rel="stylesheet" href="./css/painel-sobre.css" />
+    <link rel="stylesheet" href="./css/painel-palestrantes.css" />
+    <link rel="stylesheet" href="./css/formulario.css" />
+  </head>
+  <body>
+    <header>
+      <div class="cabecalho">
+        <nav class="menu">
+          <ul class="menu__lista">
+            <li class="menu__item">
+              <a class="menu__link" id="ancora" href="#painel-sobre">Sobre</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" id="ancora" href="#painel-palestrantes"
+                >Palestrantes</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="painel-princial">
+        <section class="painel-princial__titulos">
+          <h1 class="painel-princial__titulo">Aluraconf</h1>
+          <h2 class="painel-princial__subtitulo">30Maio|Rio</h2>
+        </section>
+        <section class="painel-princial__inscrever">
+          <a class="botao" id="ancora" href="#form">Inscreva-se</a>
+        </section>
+      </div>
+    </header>
+    <main>
+      <!-- Seção Painel Sobre -->
+      <section class="painel-sobre" id="painel-sobre">
+        <div class="container">
+          <h2 class="painel-sobre__titulo">
+            Muito conteúdo: do frontend ao backend
+          </h2>
+          <h3 class="painel-sobre__subtitulo">
+            30 de Maio de 2017 - na Cidade Maravilhosa
+          </h3>
+          <div class="painel-sobre__descricao">
+            <p>
+              Com a Aluraconf abordaremos o que há de novidade e conhecimentos
+              essenciais a um desenvolvedor mobile.
+            </p>
+            <p>
+              É uma grande chance de ficar por dentro dos assuntos de Android,
+              iOS, Web mobile, desenvolvimento híbrido, UX, além da parte
+              backend com Rest, Microservices e BigData. O desenvolvedor
+              atualizado vai estar aqui.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Seção Painel Sobre - Fim -->
+      <!-- Seção Painel Palestrantes -->
+      <section class="painel-palestrantes" id="painel-palestrantes">
+        <div class="painel-palestrantes__titulos">
+          <h2 class="painel-palestrantes__titulo">Palestrantes</h2>
+          <h3 class="painel-palestrantes__subtitulo">
+            Aprenda com palestrantes que são referência no mercado
+          </h3>
+        </div>
+        <div class="painel-palestrantes__cartao">
+          <article class="cartao">
+            <img
+              class="cartao__imagem"
+              src="./img/palestrantes/placeholder.jpeg"
+              alt=""
+            />
+            <div class="cartao__conteudo">
+              <p class="cartao__nome">Nome do palestrante</p>
+              <h4 class="cartao__titulo">
+                Desenvolvedor e instrutor da Caelum
+              </h4>
+              <p class="cartao__texto">
+                To be or not to MEAN To be or not to MEAN To be or not to MEAN
+                To be or not to MEAN To be or not to MEAN
+              </p>
+            </div>
+          </article>
+          <article class="cartao">
+            <img
+              class="cartao__imagem"
+              src="./img/palestrantes/placeholder.jpeg"
+              alt=""
+            />
+            <div class="cartao__conteudo">
+              <p class="cartao__nome">Nome do palestrante 2</p>
+              <h4 class="cartao__titulo">
+                Desenvolvedor e instrutor da Caelum
+              </h4>
+              <p class="cartao__texto">To be or not to MEAN</p>
+            </div>
+          </article>
+          <article class="cartao">
+            <img
+              class="cartao__imagem"
+              src="./img/palestrantes/placeholder.jpeg"
+              alt=""
+            />
+            <div class="cartao__conteudo">
+              <p class="cartao__nome">Nome do palestrante 2</p>
+              <h4 class="cartao__titulo">
+                Desenvolvedor e instrutor da Caelum
+              </h4>
+              <p class="cartao__texto">To be or not to MEAN</p>
+            </div>
+          </article>
+          <article class="cartao">
+            <img
+              class="cartao__imagem"
+              src="./img/palestrantes/placeholder.jpeg"
+              alt=""
+            />
+            <div class="cartao__conteudo">
+              <p class="cartao__nome">Nome do palestrante 2</p>
+              <h4 class="cartao__titulo">
+                Desenvolvedor e instrutor da Caelum
+              </h4>
+              <p class="cartao__texto">To be or not to MEAN</p>
+            </div>
+          </article>
+          <article class="cartao">
+            <img
+              class="cartao__imagem"
+              src="./img/palestrantes/placeholder.jpeg"
+              alt=""
+            />
+            <div class="cartao__conteudo">
+              <p class="cartao__nome">Nome do palestrante 2</p>
+              <h4 class="cartao__titulo">
+                Desenvolvedor e instrutor da Caelum
+              </h4>
+              <p class="cartao__texto">To be or not to MEAN</p>
+            </div>
+          </article>
+          <article class="cartao">
+            <img
+              class="cartao__imagem"
+              src="./img/palestrantes/placeholder.jpeg"
+              alt=""
+            />
+            <div class="cartao__conteudo">
+              <p class="cartao__nome">Nome do palestrante 2</p>
+              <h4 class="cartao__titulo">
+                Desenvolvedor e instrutor da Caelum
+              </h4>
+              <p class="cartao__texto">To be or not to MEAN</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Seção Painel Palestrantes - Fim -->
+      <!-- Formulário -->
+      <section class="form" id="form">
+        <h2 class="form__titulo">Seus dados</h2>
+        <form>
+          <label class="form__label" for="nome">Nome</label>
+          <input class="form__input" type="text" id="nome" required />
+          <label class="form__label" for="email">E-mail</label>
+          <input class="form__input" type="text" id="email" required />
+          <div class="form__botao">
+            <button class="botao">Realizar inscrição</button>
+          </div>
+        </form>
+      </section>
+      <!-- Formulário - Fim-->
+    </main>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
